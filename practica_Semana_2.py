@@ -27,7 +27,7 @@ def determinar_posicion_lista():
         numero = int(input(f"Ingrese el número {i+1} de 4: "))
         lista.append(numero)
     numero_mayor = max(lista)
-    posicion = lista.index(numero_mayor)
+    posicion = 1 + lista.index(numero_mayor)
     print(f"El número mayor es {numero_mayor} y su posición en la lista es {posicion}.")
 
 def eliminar_duplicados():
