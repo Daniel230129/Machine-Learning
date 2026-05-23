@@ -1,3 +1,5 @@
+#Daniel Caamaño 23-0129
+
 def lista_de_compras():
     #Crea una lista con 5 productos de supermercado.
     lista_compras = ["manzanas", "pan", "leche", "huevos", "queso"]
