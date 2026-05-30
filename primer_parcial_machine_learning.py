@@ -39,6 +39,7 @@ def salario_empleados():
     # 1. Recorre la lista de empleados e imprime cada nombre
     for nombre in nombres_empleados:
         print(nombre)
+    print("-" * 48)
 
     # 2. Crea un diccionario con las horas de cada empleado
     diccionario = {
@@ -51,6 +52,7 @@ def salario_empleados():
 
     for a, b in diccionario.items():
         print(f"{a}: {b}")
+    print("-" * 48)
 
     # 3. Recorre el diccionario e imprime el salario semanal
     for nombre, horas in diccionario.items():
@@ -62,7 +64,7 @@ def salario_empleados():
             print(f"{nombre} tiene un salario alto")
         else:
             print(f"{nombre} tiene salario bajo")
-
+        print("-" * 48)
 
 def menu():
     while True:
@@ -86,5 +88,4 @@ def menu():
             case _:
                 print("Opción no válida. Por favor, ingrese una opción entre 1 y 3.")
 
-
-
+menu()
